@@ -21,8 +21,9 @@ Compute an investment report.
 
 # Accept the inputs from the user
 startBalance = float(input("Enter the investment amount: "))
-years = int(input("Enter the number of years: "))
-rate = int(input("Enter the rate as a %: "))
+years = int(input("Enter the 
+number of years: "))
+rate = float(input("Enter the rate as a %: "))
    
 # Convert the rate to a decimal number
 rate = rate / 100
